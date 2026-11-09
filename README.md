@@ -95,34 +95,6 @@ Sin una resistencia limitadora, la corriente que circula por el LED y el GPIO po
 
 El estado físico es la condición real del LED: si está iluminado o apagado. La variable `ledEncendido` es un dato lógico almacenado en el programa (`true` o `false)) que representa el estado que el software espera haber establecido. El programa actualiza esa variable cuando ejecuta las órdenes de encendido o apagado y la utiliza para mostrar el estado en la página. Si hay un problema eléctrico, de cableado o de conexión, la variable podría indicar “encendido” aunque el LED físicamente no ilumine; por eso es importante comprobar ambos estados.
 
-## Evidencias
-
-Añade las fotografías y los videos de tu práctica en una carpeta llamada `evidencias/`. Después, ajusta los nombres de archivo de esta sección para que coincidan exactamente con los archivos que subas al repositorio.
-
-### Fotografías
-
-- **Montaje del circuito:** `evidencias/montaje.jpg`
-- **Conexiones del ESP32 y LED:** `evidencias/conexiones.jpg`
-- **Interfaz de control en el navegador:** `evidencias/interfaz-web.png`
-
-### Videos
-
-- **Demostración de encendido y apagado:** `evidencias/prueba-control.mp4`
-
-Puedes insertar una imagen directamente en este README con la sintaxis:
-
-```md
-![Montaje del circuito](evidencias/montaje.jpg)
-```
-
-Para enlazar un video almacenado en el repositorio:
-
-```md
-[Ver demostración de funcionamiento](evidencias/prueba-control.mp4)
-```
-
-> Si tus archivos tienen otros nombres o extensiones, reemplaza las rutas de ejemplo anteriores. GitHub no reproduce todos los formatos de video de la misma manera en todas las vistas; un enlace al archivo es una alternativa sencilla.
-
 ## Pruebas de funcionamiento
 
 | Prueba | Acción | Resultado esperado |
